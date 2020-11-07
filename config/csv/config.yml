@@ -1,0 +1,11 @@
+flamingo:
+  router:
+    path: /en
+
+# Configure the modules flamingoCommerceAdapterStandalone
+flamingoCommerceAdapterStandalone:
+  csvindexing:
+    productCsvPath: "ressources/products/products_en.csv"
+    categoryCsvPath: "ressources/products/categories.csv"
+    locale: "en_GB"
+    currency: "GBP"
